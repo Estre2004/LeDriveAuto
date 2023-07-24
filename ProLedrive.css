@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-1: #f83d3de7;
+    --color-2: #2752a144;
+    --color-header:#50505083;
+    --color-fondo:#000000;
+    --color-texto-1:#ffffff;
+    --color-texto-2:#2a8107b2;
+    --color-texto-3: #144757;
+}
+
+html{
+    font-size: 65.5%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Agdasima', sans-serif;
+}
+
+.main{
+    width: 100%;
+}
+
+.banner_text-1{
+    font-size: 2em;
+    color: #ffffffb7;
+}
+
+/*Section 1*/
+
+.section_1{
+    display: flex;
+    align-items: center;
+    padding: 10rem 5%;
+    background: url("logo.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*NOSOTROS*/
+
+.container {
+    margin: auto;
+}
+
+.section_2{
+    width: 90%;
+    margin: auto;
+    padding: 90px 0;
+
+}
+
+.section_2-title{
+    font-family: 'roboto', sans-serif;
+    font-size: 40px;
+    color: var(--color--texto-3);
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.us{
+    display: flex;
+}
+
+.us-text{
+    width: 60%;
+    padding: 0 5% 0 0;
+}
+
+.us-paragraph{
+    font-family: 'roboto', sans-serif;
+    font-size: 17px;
+    color: var(--color--texto-4);
+    text-align: justify;
+}
+
+.paragraph-text{
+    margin: 10px 0;
+}
+
+.us-ledrive{
+margin: 20px 0;    
+
+}
+
+.us-ledrive-title{
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    color: var(--color--texto-3);
+    font-weight: bold;
+}
+
+.us-img{
+    width: 70%;
+}
+
+.img-img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 15px;
+}
